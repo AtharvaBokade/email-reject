@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/email-reject/static/css/main.ab732efd.css",
+    "main.js": "/email-reject/static/js/main.ff92fb9d.js",
+    "static/js/787.f9547ec9.chunk.js": "/email-reject/static/js/787.f9547ec9.chunk.js",
+    "index.html": "/email-reject/index.html",
+    "main.ab732efd.css.map": "/email-reject/static/css/main.ab732efd.css.map",
+    "main.ff92fb9d.js.map": "/email-reject/static/js/main.ff92fb9d.js.map",
+    "787.f9547ec9.chunk.js.map": "/email-reject/static/js/787.f9547ec9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab732efd.css",
+    "static/js/main.ff92fb9d.js"
+  ]
+}
