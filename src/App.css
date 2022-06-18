@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.email_form{
+  position:absolute;
+  width: 20em;
+  height: 30em;
+  left:37em;
+  top:15em;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.email_rejected{
+  position:absolute;
+  width: 23em;
+  background-color: antiquewhite;
+  height: 35em;
+  left:37em;
+  top:15em;
 }
+.footer_custom{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  position: absolute;
+  background-color: rgb(75, 170, 187);
+  width: 100%;
+  height:7%;
+  top: 95%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer_text{
+  position: absolute;
+  left: 39%;
+  top: 25%;
 }
