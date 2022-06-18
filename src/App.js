@@ -27,7 +27,7 @@ function App(props) {
   // }
 
   const remove_elligibility = (id) =>{
-    Axios.put("http://localhost:3001/email_sending",{
+    Axios.put("https://appointment0backend.herokuapp.com/email_sending",{
       id:id,
       email_send:"Sent",
     });
