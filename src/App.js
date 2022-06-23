@@ -8,7 +8,7 @@ function App(props) {
 
   useEffect(()=>{
    
-    Axios.get('https://appointment0backend.herokuapp.com/email_s').then((res)=>{
+    Axios.get('https://appointment-backend-new-1.herokuapp.com/email_s').then((res)=>{
       setEmail_list(res.data);
       console.log("it is useeffect rejected");
       
@@ -27,7 +27,7 @@ function App(props) {
   // }
 
   const remove_elligibility = (id) =>{
-    Axios.put("https://appointment0backend.herokuapp.com/email_sending",{
+    Axios.put("https://appointment-backend-new-1.herokuapp.com/email_sending",{
       id:id,
       email_send:"Sent",
     });
